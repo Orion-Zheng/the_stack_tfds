@@ -7,12 +7,12 @@ Run the `download_scripts\get_the_stack_dedup.sh`. the-stack-dedup repo has a Te
 
 # 2. Generate TFDS of the-stack-dedup  
 Run `build_scripts/generate_the_stack_dedup.sh` to generate TFDS in the `the_stack_data` directory.  
-Among these scripts:  
+Among the script:  
 ```
 --manual_dir: The source directory for storing raw data.
 --data_dir: The target directory for storing the generated TFDS.
 ```
 
 # 3. Upload the TFDS to Google Cloud  
-Install gsutil and sign in your Google Account, run `the_stack_data/upload.sh` to upload TFDS to your storage bucket.  
+Install gsutil and sign in your Google Account, run `the_stack_data/upload.sh` to upload TFDS to your google storage bucket.  
 [ref](https://cloud.google.com/storage/docs/gsutil_install#linux)  
